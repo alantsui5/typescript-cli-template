@@ -13,6 +13,10 @@
     "typescript",
     "cli"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alantsui5/typescript-cli-template.git"
+},
   "author": "Alan Tsui",
   "license": "MIT",
   "devDependencies": {
