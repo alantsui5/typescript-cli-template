@@ -1,0 +1,26 @@
+{
+  "name": "typescript-cli-template",
+  "version": "1.0.0",
+  "description": "This is a typescript template for pure command line interface, it bootstrap a typescript project out of the box like deno",
+  "main": "index.ts",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "lint": "eslint . --ext .ts",
+    "lint-and-fix": "eslint . --ext .ts --fix",
+    "prettier-format": "prettier --config .prettierrc 'src/**/*.ts' --write"
+  },
+  "keywords": [
+    "typescript",
+    "cli"
+  ],
+  "author": "Alan Tsui",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^3.5.0",
+    "@typescript-eslint/parser": "^3.5.0",
+    "eslint": "^7.3.1",
+    "prettier": "^2.0.5",
+    "ts-node": "^8.10.2",
+    "typescript": "^3.9.5"
+  }
+}
