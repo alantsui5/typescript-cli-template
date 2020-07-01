@@ -4,7 +4,7 @@ This is typescript cli starter to provide simple out of the box typescript exper
 
 # Bootstrap
 ```
-degit https://github.com/alantsui5/typescript-cli-template.git
+npx degit https://github.com/alantsui5/typescript-cli-template.git
 ```
 
 ## TypeScript Config
